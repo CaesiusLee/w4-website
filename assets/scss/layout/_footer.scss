@@ -1,0 +1,111 @@
+/*footer*/
+.style2 a {
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.style3, .style4 a{
+	color: #FFFFFF;
+}
+.style3 span {
+	font-size: 36px;
+}
+footer img {
+	width: 48px;
+}
+.mr-16 {
+	margin-right: 16px;
+}
+.pt-48 {
+	padding-top: 48px;
+}
+.w-464 {
+	width: 464px;
+}
+.w-208 {
+	width: 208px;
+}
+.mb-24 {
+	margin-bottom: 24px;
+}
+.mb-8 {
+	margin-bottom: 8px;
+}
+.ptb-32 {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+.border-top {
+	border-top: 1px solid  #FFFFFF;
+}
+.mt-32 {
+	margin-top: 32px; 
+}
+.w-174 {
+	width: 174px;
+}
+@media (max-width:768px) {
+    /*版面*/
+    .container {
+        margin: 0 36px;
+	    max-width: 696px;
+    }
+    /*flex*/
+    .d-flex-md {
+        display: flex;
+    }
+    .jc-ab-md {
+        justify-content: space-between;
+    }
+   
+    
+    footer img {
+        width: 40px;
+    }
+    .w-152 {
+        width: 152px;
+    }
+}
+@media (max-width:767px) {
+    /*版面*/
+    .container {
+	    max-width: 100%;
+        margin: 0 15px;
+        padding: 0;
+    }
+    /*文字*/
+    nav .font-m {
+        font-size: 16px;
+    }
+    /*flex*/
+    .d-flex-md {
+        display: flex;
+    }
+    .jc-ab-md {
+        justify-content: space-between;
+    }
+    .flex-wrap-md {
+        flex-wrap: wrap;
+    }
+
+    
+    .style2 {
+        display: none;
+    }
+    footer img {
+        width: 24px;
+    }
+    .w-88 {
+        width: 88px;
+    }
+    footer, footer h2, footer p {
+        font-size: 16px;
+    }
+    .style4 a {
+        display: block;
+        width: 100%;
+        height: 24px;
+    }   
+    .mb-8 {
+        margin-bottom: 8px;
+    }                    
+}
